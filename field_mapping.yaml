@@ -1,0 +1,36 @@
+permit:
+  number: permit_number
+  type_code: permittype
+  type_description: permit_type_desc
+  class: permit_class
+  class_mapped: permit_class_mapped
+  work_class: work_class
+  status:
+    current: status_current
+    date: statusdate
+  applied_date: applieddate
+  issue_date: issue_date
+  expiration_date: expiresdate
+  completion_date: completed_date
+  day_issued: day_issued
+  calendar_year: calendar_year_issued
+  fiscal_year: fiscal_year_issued
+  issued_in_last_30_days: issued_in_last_30_days
+  method_issued: issue_method
+  description: description
+  project_id: project_id
+  master_permit_number: masterpermitnum
+  link: link.url
+location:
+  address: original_address1
+  city: original_city
+  state: original_state
+  zip: original_zip
+  jurisdiction: jurisdiction
+  council_district: council_district
+  coordinates:
+    latitude: location.latitude
+    longitude: location.longitude
+property:
+  tcad_id: tcad_id
+  legal_description: legal_description
