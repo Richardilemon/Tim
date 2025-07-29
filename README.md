@@ -193,9 +193,7 @@ This creates `normalized_output.csv`.
 
 ---
 
-#### 5. 🛠 (Optional) Load to Supabase via Script
-
-If networking permits, load data programmatically:
+#### 5. 🛠 (Optional) Load to Supabase via Script (Data is already loaded)
 
 ```bash
 python load_to_supabase.py
@@ -215,13 +213,19 @@ GET https://<your-project-ref>.supabase.co/rest/v1/permits
 
 With headers:
 
-```http
+```
 apikey: YOUR_ANON_KEY
 Authorization: Bearer YOUR_ANON_KEY
 ```
 
+Or just run:
+
+```bash
+python query.py
+```
 
 
-**REST API section**
+
+### **REST API section**
 ⚠️ This Supabase instance is provided for demo purposes only.
 You can replace the URL and API keys with your own credentials to run this pipeline in your environment.
