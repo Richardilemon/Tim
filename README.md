@@ -208,16 +208,16 @@ python load_to_supabase.py
 Once loaded, you can access the data at:
 
 ```
-GET https://<your-project-ref>.supabase.co/rest/v1/permits
+GET https://<project-ref>.supabase.co/rest/v1/permits
 ```
 
 With headers:
 
 ```
-apikey: YOUR_ANON_KEY
-Authorization: Bearer YOUR_ANON_KEY
+apikey: ANON_KEY
+Authorization: Bearer ANON_KEY
 ```
-
+the details are in query.py
 Or just run:
 
 ```bash
