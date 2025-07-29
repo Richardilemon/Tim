@@ -218,6 +218,7 @@ apikey: ANON_KEY
 Authorization: Bearer ANON_KEY
 ```
 the details are in query.py
+
 Or just run:
 
 ```bash
